@@ -1,3 +1,27 @@
 .Month {
-  width: 100%; height: auto;
+  display: inline;
+}
+
+.Month:first-child .Day-2:first-child {
+  margin-left: 14.2857142857%;
+}
+
+.Month:first-child .Day-Wed:first-child {
+  margin-left: 28.5714285714%;
+}
+
+.Month:first-child .Day-Thu:first-child {
+  margin-left: 42.8571428571%;
+}
+
+.Month:first-child .Day-Fri:first-child {
+  margin-left: 57.1428571428%;
+}
+
+.Month:first-child .Day-Sat:first-child {
+  margin-left: 71.4285714285%;
+}
+
+.Month:first-child .Day-Sun:first-child {
+  margin-left: 85.7142857142%;
 }
