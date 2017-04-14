@@ -2,4 +2,36 @@
   display: inline-block;
   width: 14.2857142857%;
   height: 14.2857142857%;
+
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: -1px;
+
+  padding: 3px;
+}
+
+.Day-Week-1 {
+  background: linear-gradient(#fff 0, #f0f0f0 500%);
+}
+
+.Day-Week-2 {
+  background: linear-gradient(#fff -100%, #f0f0f0 400%);
+}
+
+.Day-Week-3 {
+  background: linear-gradient(#fff -200%, #f0f0f0 300%);
+}
+
+.Day-Week-4 {
+  background: linear-gradient(#fff -300%, #f0f0f0 200%);
+}
+
+.Day-Week-5 {
+  background: linear-gradient(#fff -400%, #f0f0f0 100%);
+}
+
+.Day-Week-6 {
+  background: linear-gradient(#fff -500%, #f0f0f0 0);
 }
