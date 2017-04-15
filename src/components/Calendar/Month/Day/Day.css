@@ -1,7 +1,6 @@
 .Day {
   display: inline-block;
   width: 14.2857142857%;
-  height: 14.2857142857%;
 
   box-sizing: border-box;
   border: 1px solid #ddd;
@@ -9,7 +8,14 @@
   border-bottom: none;
   margin-bottom: -1px;
 
-  padding: 3px;
+  padding: 0.2em;
+  font-size: 0.8em;
+}
+
+.Day:before {
+  content: '';
+  float: left;
+  padding-top: 100%;
 }
 
 .Day-Week-1 {
